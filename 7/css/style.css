@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1,h2,h3,h3,h4,h5,p,span,nav,div,section,a,ul,ol,img {
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+/*navigation part css start*/
+.sumi {
+    clear: both;
+}
+nav {
+    background-color: rgb(227, 184, 12);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.logo img {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    width: 30%;
+    float: left;
+    margin-top: 5px;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.menu ul {
+    float: left;
+}
+.menu ul li {
+    float: left;
+    padding: 15px 20px;
+}
+.menu ul li a {
+    color: blueviolet;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: italic;    
+}
+/*navigation part css end */
+
+/*banner part css start*/
+.banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_overlay {
+    padding: 160px 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+.banner_content h1 {
+    font-size: 60px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+.banner_content h4 {
+    font-size: 35px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: orange;
+    padding-bottom: 40px;
+}
+.banner_content a {
+    padding: 13px 30px;
+    background-color: teal;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18px;
+}
+.banner_content a:hover {
+    background-color: white;
+    color: black;
+    transition: all linear .3s;
+    box-shadow: 1px 1px 15px white;
+}
+/*banner part css end*/
+/*about part css start*/
+.common_heading h4 {
+   text-align: center;
+   margin: 40px 0;
+   background-color: teal;
+   padding: 10px 0;
+   border-radius: 30px;
+   font-family: monospace;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   text-transform: uppercase;
+}
+.about_img {
+   width: 50%;
+   float: left; 
+}
+.about_img img {
+    width: 100%;
+}
+.about_content {
+    width: 50%;
+    float: left;
+}
+.about_content h4 {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+.about_content p {
+    line-height: 30px;
+    padding-left: 20px;
+    text-align: justify;
+}
+/*about part css end*/
+/*gallery part css start*/
+.gallery_img {
+    width: 32%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.gallery_img img {
+    width: 100%;
+    transition: all linear 3s;
+}
+.gallery_img:hover img {
+    transform: scale(1.5);
+    transition: all linear 3s;
+
+}
+.gallery_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+.gallery_overlay a {
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color: teal;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    
+}
+.gallery_img:hover .gallery_overlay {
+    transform: scale(1);
+    transition: all linear .3s;
+}
+.gallery_middle {
+    margin: 0 2%;
+}
+
+/*gallery part css end */
+
+/*footer part css start */
+footer {
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 20px;
+
+}
+/*footer part css end */
+/*multiple page css start*/
+.content {
+    text-align: justify;
+}
+.content h4 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: bold;
+}
+/*multiple page css end */
