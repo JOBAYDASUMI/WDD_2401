@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Menu Part Start*/
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    text-align: center;
+    background-color: teal;
+}
+.menu ul {
+    display: inline-flex;
+}
+.menu ul li {
+    height: 50px;
+    width: 120px;
+    line-height: 50px;
+    position: relative;
+}
+.menu ul li a {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: block;
+}
+.menu ul li a:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+.menu ul li a.focus {
+    background-color: yellowgreen;
+}
+.dropdown {
+    display: none;
+
+    /*
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+    */
+}
+.menu ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.menu ul li:hover .dropdown ul {
+    display: block;
+    background-color: teal;
+}
+.sub_menu {
+    display: none;
+}
+.sub_menu_main:hover .sub_menu {
+    display: block;
+    position: absolute;
+    left: 120px;
+    top: 0;
+}
+/* Menu Part end*/
+
+
+
+
+
+
+.green {
+  height: 200px;
+  width: 300px;
+  background-color: green;
+  margin: 120px auto;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+.red {
+    height: 120px;
+    width: 120px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.red img {
+    width: 110px;
+    height: 110px;
+}
+.red:hover img {
+    transform: rotate(45deg);
+    transition: all linear .3s;
+}
+/*Flag Code start*/
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.indian_flag {
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+.saffron {
+    background-color: #FF9933;
+    width: 100%;
+    height: 33.33%;
+}
+.white {
+    background-color: white;
+    width: 100%;
+    height: 33.33%;
+}
+.green {
+    background-color: #138808;
+    width: 100%;
+    height: 33.33%;
+}
+.ashoka_chakra {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80%;
+    border: 2px solid navy;
+    border-radius: 50%;
+    background-color: #000080;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.ashoka_chakra::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.ashoka_chakra::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+
+/*Flag Code end*/
+
+
+
+
+
+
+
+
