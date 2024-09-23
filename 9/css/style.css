@@ -1,0 +1,40 @@
+.navbar {
+    padding: 0;
+}
+
+.logo img {
+    height: 40px;
+    width: 100px;
+}
+/*
+.logo {
+    width: 25%;
+    float: left;
+    margin-top: 5px;
+}
+*/
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 20px;
+    padding: 0 10px;
+    font-family: monospace;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: yellowgreen;
+}
+.carousel-inner img {
+    height: 550px;
+    object-fit: cover;
+}
+
+.carousel-indicators [data-bs-target] {
+    
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+    opacity: 1;
+}
+.carousel-indicators [data-bs-target].active {
+    background-color: red;
+}
